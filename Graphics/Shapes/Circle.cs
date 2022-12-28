@@ -13,7 +13,7 @@
 			Radius = radius;
 		}
 
-		public int[] GetDrawable()
+		public List<Point2D> GetDrawable()
 		{
 			return null;
 		}

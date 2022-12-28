@@ -1,9 +1,7 @@
-﻿using System;
-namespace Peanut.Graphics.Shapes
+﻿namespace Peanut.Graphics.Shapes
 {
 	public interface IShape
 	{
-		public int[] GetDrawable();
+		public List<Point2D> GetDrawable();
 	}
 }
-

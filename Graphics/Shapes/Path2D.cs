@@ -6,9 +6,9 @@
 		{
 		}
 
-		public int[] GetDrawable()
+		public List<Point2D> GetDrawable()
 		{
-			return new int[] { 4, 5 };
+			return null;
 		}
 	}
 }
