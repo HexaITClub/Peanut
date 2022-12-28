@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Graphics\" />
+    <None Remove="IO\" />
+    <None Remove="Graphics\Shapes\" />
+    <None Remove="Graphics\Maths\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Graphics\" />
+    <Folder Include="IO\" />
+    <Folder Include="Graphics\Shapes\" />
+    <Folder Include="Graphics\Maths\" />
+  </ItemGroup>
+</Project>
